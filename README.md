@@ -25,10 +25,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. How would you describe preprocessing to someone new to CSS?
+It can be described as a translator, the new syntax is translated bythe processor then that get's translated into css.
+
 2. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+My favorite concept was mixins and how clean they make the code look. Nesting still gives me a bit of trouble because I still get a little confused while going through it.
+
 3. How would you explain the concept of a variable to someone new to programming?
+It is a container that holds directions to a value or the value it's self. (value meaning integers, strings, booleans, ect.)
+
 4. What is the purpose of using functions in code?
+Fuctions clean things up and makes work easier. 
+
 5. What is a JSON data?
+Lightweight format for storing/transporting data. Used when sending data to a webpage from server.
 
 You may need to look up an answer but, you are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -40,23 +49,23 @@ Follow these steps to set up your project:
 
 #### Git Set up
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your Team Lead as collaborator on Github.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [X] Create a forked copy of this project.
+- [X] Add your Team Lead as collaborator on Github.
+- [X] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [X] Create a new branch: git checkout -b `<firstName-lastName>`.
 
 #### Preprocessor Set up
 
-* [ ] Verify that you have LESS installed correctly by running `lessc -v` in your terminal, if you don't get a version message back, reach out to your project manager for help.
-* [ ] In your project's root folder, run the following command `less-watch-compiler less css index.less`
-* [ ] Verify your compiler is working correctly by changing the `background-color` on the `body` selector to `red` in your `index.less` file.
-* [ ] Once you see the red screen, you can delete that style and you're ready to start on the next task
+* [X] Verify that you have LESS installed correctly by running `lessc -v` in your terminal, if you don't get a version message back, reach out to your project manager for help.
+* [X] In your project's root folder, run the following command `less-watch-compiler less css index.less`
+* [X] Verify your compiler is working correctly by changing the `background-color` on the `body` selector to `red` in your `index.less` file.
+* [X] Once you see the red screen, you can delete that style and you're ready to start on the next task
 
 ### Task 2a:  Minimum Viable Product - PreProcessing
 
 #### Import LESS Files
 
-* [ ] Navigate to your `index.less` file. Notice the file is blank. You have been asked to use a certain import order. That order is as follows:
+* [X] Navigate to your `index.less` file. Notice the file is blank. You have been asked to use a certain import order. That order is as follows:
 
 ```markdown
 1.variables.less
@@ -72,15 +81,15 @@ _You will know everything is working properly when you see the styles enabled fo
 
 #### Home Page - Desktop HTML & LESS
 
-* [ ] Take 10 minutes to review the code that has already been provided for you. Take time to see how the home page was built.
-* [ ] Add a viewport meta tag to the head of your index.html page
-* [ ] [Review the provided home desktop design file](design/Desktop.png). You are to build the missing navigation system and header image. You have been provided all content necessary in the [index.html file](index.html)
-* [ ] Navigation Styles: Use the `navigation.less` file for styling.
-* [ ] Main Content Styles: Use the `main.less` file for styling
-* [ ] LESS Mixins: Create and use 2 different mixins to aid your styling. Use the `mixins.less` file for your mixins
+* [X] Take 10 minutes to review the code that has already been provided for you. Take time to see how the home page was built.
+* [X] Add a viewport meta tag to the head of your index.html page
+* [X] [Review the provided home desktop design file](design/Desktop.png). You are to build the missing navigation system and header image. You have been provided all content necessary in the [index.html file](index.html)
+* [X] Navigation Styles: Use the `navigation.less` file for styling.
+* [X] Main Content Styles: Use the `main.less` file for styling
+* [X] LESS Mixins: Create and use 2 different mixins to aid your styling. Use the `mixins.less` file for your mixins
 * [ ] LESS Parametric Mixin: create a parametric mixin that is used to create the `contact us` button styles.
 * [ ] Use at least 2 parameters to create your button
-* [ ] Create a hover state that changes the opacity of images to 80%
+* [X] Create a hover state that changes the opacity of images to 80%
 * [ ] Use good coding practices including adding responsive breakpoints to your code with media queries
 
 ### Task 2b: Minimum Viable Product - JavaScript
