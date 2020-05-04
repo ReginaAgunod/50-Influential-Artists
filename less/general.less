@@ -1,0 +1,94 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    color: @body-font-color;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+}
+
+p {
+    line-height: 1.6;
+}
+
+// Links
+a {
+    color: @link-font-color;
+    text-decoration: underline;
+
+    &:hover {
+        color: @link-hover-font-color;
+    }
+}
+
+// Headings 
+h1, h2, h3, h4, h5 {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+h2 {
+    font-size: 4.5rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+h5 {
+    font-size: 1rem;
+}
+
+/* Buttons */
+.btn {
+    .create-button();
+}
+
+/* Images */
+img {
+    .smooth-transition(opacity);
+
+    &:hover {
+        opacity: 0.8;
+    }
+}
+/* Artist */
+#artist {
+    display: flex;
+    flex-direction: column;
+    padding-top: @basic-gutter;
+    margin-left: @basic-gutter;
+    margin-right: @basic-gutter;
+    .add-border(top);
+
+    @media @tablet {
+        flex-direction: row;
+        justify-content: space-between;
+
+        .artist-item {
+            width: 45%;
+            margin-right: @basic-gutter;
+        }
+    }
+
+    .artist-item {
+        margin-bottom: @basic-gutter;
+
+        .picture {
+            display: block;
+            overflow: hidden;
+
+            img {
+                height: 32rem;
+            }
+        }
+    }
+}
