@@ -272,12 +272,10 @@ genre: Web Design,
 nationality: Your Nationality Here
 bio: Add 1-2 sentences (or use lorem ipsum) "*/
 
-function addArtist(/* Code here */){
-  function addArtist(info){
+function addArtist(info){
     artists.push(info);
   }
 
-  /*
   addArtist( 
     { 
       id: 24, 
@@ -289,8 +287,7 @@ function addArtist(/* Code here */){
   }
 );
 
-console.log(artists);
-*/
+ console.log(artists);
 
 // 🎨🎨 STRETCH 🎨🎨//
 
